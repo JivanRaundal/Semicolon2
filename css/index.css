@@ -1,0 +1,58 @@
+#cast{
+    width: 100%;
+    position: relative;
+    padding-left: 40px;
+}
+
+#cast img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.arrow-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(105, 105, 105, 0.285);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(105, 105, 105, 0.285);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+#related > div {
+    width: 350px; 
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#related > div > .card{
+    width: 350px; 
+    height: 450px;
+}
+
+#related > div > .card > img{
+    width: 350px; 
+    height: 90%;
+}
